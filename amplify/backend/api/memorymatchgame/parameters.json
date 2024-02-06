@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "memorymatchgame",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmemorymatchgamef7125194",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "Transformers authRole",
+      "UnauthRoleArn": "arn:aws:iam::096280765184:role/amplify-memorymatchgame-dev-114032-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::096280765184:role/amplify-memorymatchgame-dev-114032-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "Transformersbucket",
+      "UnauthRoleName": "amplify-memorymatchgame-dev-114032-unauthRole",
+      "StackName": "Transformers Stack",
+      "StackId": "arn:aws:cloudformation:us-east-1:096280765184:stack/amplify-memorymatchgame-dev-114032/489c89b0-c445-11ee-b7e7-124f08967449",
+      "AmplifyAppId": "d2bqgxqgmpulgc"
+    },
+    "categories": {
+      "auth": {
+        "memorymatchgamef7125194": {}
+      }
+    }
+  },
+  "project": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-memorymatchgame-project-115409-authRole",
+      "UnauthRoleArn": "arn:aws:iam::096280765184:role/amplify-memorymatchgame-project-115409-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::096280765184:role/amplify-memorymatchgame-project-115409-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-memorymatchgame-project-115409-deployment",
+      "UnauthRoleName": "amplify-memorymatchgame-project-115409-unauthRole",
+      "StackName": "amplify-memorymatchgame-project-115409",
+      "StackId": "arn:aws:cloudformation:us-east-1:096280765184:stack/amplify-memorymatchgame-project-115409/2fefa260-c447-11ee-90cf-128aa43a0cf3",
+      "AmplifyAppId": "d2bqgxqgmpulgc"
+    },
+    "categories": {
+      "auth": {
+        "memorymatchgamef7125194": {}
+      },
+      "api": {
+        "memorymatchgame": {}
+      }
+    }
+  }
+}
