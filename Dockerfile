@@ -17,7 +17,12 @@ RUN apt-get update && apt-get install -y \
     wget \
     gnupg \
     ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+    clang -y \
+    cmake -y \
+    ninja-build -y \
+    pkg-config -y && \
+    rm -rf /var/lib/apt/lists/*
+
 
 # Install AWS Amplify CLI
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
